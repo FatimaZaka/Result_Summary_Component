@@ -1,0 +1,114 @@
+body{
+    background-color:white;
+}
+#colored-box{
+    width: 250px;
+    height:330px;
+    border-radius:25px;
+    /*background:linear-gradient(blue,rgba(30, 0, 128, 0.511));*/
+    background-color: rgba(55, 0, 255, 0.76);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateX(-100px);
+}
+h5{
+    text-align: center;
+    color:wheat;
+    opacity: 70%;
+}
+#circle{
+    height:110px;
+    width:110px;
+    border-radius: 50%;
+    background: radial-gradient(rgba(55, 0, 255, 0.692),rgba(106, 0, 255, 0.568));
+    
+    position: absolute;
+    right: 50%;
+    bottom: 65%;
+    transform: translate(50%, 50%);
+}
+#seven,#p{
+    text-align:center;
+    color: white;
+}
+#p{
+    margin-top: -40px;
+    font-weight: normal;
+    font-size: smaller;
+}
+#seven{
+    font-weight: bold;
+    font-size: 50px;
+    text-align:center;
+    padding: top 5%;
+}
+#great{
+    text-align: center;
+    color:wheat;
+    margin-top: 140px;
+}
+#par {
+    text-align: center;
+    color: wheat;
+    font-size: 10px;
+    display: block;
+    line-height: 1.5; /* Adjust line height as needed */
+    max-height: 9.9em; /* Adjust maximum height to fit 3 lines (assuming line-height: 1.5) */
+    overflow: hidden;
+}
+
+#summary{
+    border:0.5px solid beige;
+    width: 250px;
+    height:310px;
+    border-radius:25px;
+    position: absolute;
+    top: 22%;
+    right: 25%;
+    margin: 0 auto;
+    padding:10px 10px 10px 10px;
+}
+
+
+
+
+#submit{
+    background:linear-gradient(rgba(55, 0, 255, 0.692),rgba(106, 0, 255, 0.568));
+    border:none;
+    border-radius: 35px;
+    height:40px;
+    width:200px;
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute; /* Position button absolutely */
+    bottom: 30px; /* Adjust bottom spacing as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+#r{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(171, 48, 48);
+}
+#m{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:yellow;
+}
+#ve{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:green;
+}
+#vi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blue;
+}
+h4{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    size: 30px;
+}
+#icon{
+    margin-right: 10px;
+}
